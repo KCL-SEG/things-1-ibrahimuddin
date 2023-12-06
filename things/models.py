@@ -8,5 +8,5 @@ class Thing(models.Model):
         MinValueValidator(0,message="Quantity must be greater than or equal to 0"),
         MaxValueValidator(100,message="Quantity must be less than or equal to 100")
     ])
-    
+    #
 
